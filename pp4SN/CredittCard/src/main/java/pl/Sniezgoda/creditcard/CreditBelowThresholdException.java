@@ -1,5 +1,4 @@
 package pl.Sniezgoda.creditcard;
 
-public class CreditBelowThresholdException extends CreditCard {
-    
+public class CreditBelowThresholdException extends IllegalStateException{
 }
